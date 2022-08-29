@@ -15,18 +15,16 @@ Through this project I learned:
 - The process in which logical decisions must be made in order for a JavaScript code to function properly.
 
 ### Screenshot
-![](https://github.com/Golsanorouzi/Potentials-of-Web-Development/blob/main/assets/images/Screen%20Shot%202022-07-11%20at%204.15.21%20PM.png)
+![](https://github.com/Golsanorouzi/Password-that-willNOT-get-hacked/blob/main/Develop/Screen%20Shot%202022-08-29%20at%205.11.44%20PM.png)
 
 #### References
-https://www.youtube.com/watch?v=KcxmB6leB1c
+https://www.w3schools.com/js/js_comments.asp
 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
-
-https://www.youtube.com/watch?v=a8CwpGARAsQ
+https://www.youtube.com/watch?v=DqaTKBU9TZk
 
 https://readme.so/editor
 
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ##### Deployed Link
-https://golsanorouzi.github.io/Potentials-of-Web-Development/
+https://github.com/Golsanorouzi/Password-that-willNOT-get-hacked/tree/main/Develop
