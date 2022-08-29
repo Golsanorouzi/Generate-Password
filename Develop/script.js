@@ -17,6 +17,21 @@ function generatePassword() {
     if (passwordLenght < 8 || passwordLenght >128 || isNaN(passwordLenght)){
       return 'please enter a number between'
     }
+    var upperCase = confirm("Would you like the passwrod to have uppercase letters?")
+    var lowerCase = confirm("Would you like the passwrod to have lowercase letters?")
+    var numbers = confirm("Would you like the passwrod to have numbers letters?")
+    var specialCharacter = confirm("Would you like the passwrod to have specialCharacter letters?")
+
+    if (!upperCase && !lowerCase && !numbers && !specialCharacter) {
+      return 'please choose an answer within the choosen criteria'
+    }
+
+var notHack = []
+  if (upperCase) notHack += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  if (lowerCase) notHack += "abcdefghijklmnopqrstuvwxyz"
+  if (numbers) notHack += "1234567890"
+  if (specialCharacter) notHack += "!@#$%^&*"
+  var password = ''
 }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
